@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contextMenu {
+            border: 1px solid rgb(219, 214, 214);
+            border-radius: 4px;
+            background-color: rgba(241, 233, 233, 0.938);
+            width: 200px;
+            position: fixed;
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        li {
+            list-style: none;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        li:hover {
+            background-color: lavender;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class='contextMenu hover'></div>
+</body>
+<script src='./script.js'></script>
+</html>
